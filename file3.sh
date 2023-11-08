@@ -1,5 +1,5 @@
 #!\bin\bash
 echo "enter the numbers"
-read A B
-sub=`expr $A - $B`
-echo "sub: $sub"
+read a b
+mul=`expr $a \* $b`
+echo "multiplication : $mul"
